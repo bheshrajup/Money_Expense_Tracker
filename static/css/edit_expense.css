@@ -1,0 +1,42 @@
+/* Styles for form controls */
+.formcontrol {
+    margin-bottom: 20px;
+}
+
+.formcontrol label {
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+}
+
+.formcontrol input[type="text"],
+.formcontrol input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+}
+
+.formcontrol input[type="text"]:focus,
+.formcontrol input[type="date"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Button styles */
+.formcontrol button[type="submit"] {
+    background-color: #28a745; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.formcontrol button[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
